@@ -41,7 +41,7 @@ public class CreateItemCommandHandler : CommandHandler<CreateItemCommand>
 
 ### Interfaces to add in Domain Layer
 
-[Command Interfaces](https://github.com/Leanwit/dotnet-cqrs/tree/master/Src/CQRS.Shared/Domain/Bus/Command)
+[Command Interfaces](https://github.com/Leanwit/dotnet-cqrs/tree/master/Src/CQRS.Todo/Shared/Domain/Bus/Commands)
 
 ## Queries
 
@@ -82,13 +82,13 @@ public class FindItemQueryHandler : QueryHandler<FindItemQuery, ItemResponse>
 
 ### Interfaces to add in Domain Layer
 
-[Query Interfaces](https://github.com/Leanwit/dotnet-cqrs/tree/master/Src/CQRS.Shared/Domain/Bus/Query)
+[Query Interfaces](https://github.com/Leanwit/dotnet-cqrs/tree/master/Src/CQRS.Todo/Shared/Domain/Bus/Queries)
 
 ## InMemoryBus implementation
 
-[InMemoryCommandBus](https://github.com/Leanwit/dotnet-cqrs/blob/master/Src/CQRS.Shared/Infrastructure/Bus/Command/InMemoryCommandBus.cs)
+[InMemoryCommandBus](https://github.com/Leanwit/dotnet-cqrs/blob/master/Src/CQRS.Todo/Shared/Infrastructure/Bus/Commands/InMemoryCommandBus.cs)
 
-[InMemoryQueryBus](https://github.com/Leanwit/dotnet-cqrs/blob/master/Src/CQRS.Shared/Infrastructure/Bus/Query/InMemoryQueryBus.cs)
+[InMemoryQueryBus](https://github.com/Leanwit/dotnet-cqrs/blob/master/Src/CQRS.Todo/Shared/Infrastructure/Bus/Queries/InMemoryQueryBus.cs)
 
 ## Dependency Injection
 
